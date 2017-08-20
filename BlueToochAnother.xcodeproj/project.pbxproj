@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D0169BB1F47D7C10022B232 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0169BA1F47D7C10022B232 /* main.m */; };
+		2D0169BE1F47D7C10022B232 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0169BD1F47D7C10022B232 /* AppDelegate.m */; };
+		2D0169C11F47D7C10022B232 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0169C01F47D7C10022B232 /* ViewController.m */; };
+		2D0169C41F47D7C10022B232 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0169C21F47D7C10022B232 /* Main.storyboard */; };
+		2D0169C61F47D7C10022B232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D0169C51F47D7C10022B232 /* Assets.xcassets */; };
+		2D0169C91F47D7C10022B232 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0169C71F47D7C10022B232 /* LaunchScreen.storyboard */; };
+		2D0169D41F47D7C10022B232 /* BlueToochAnotherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0169D31F47D7C10022B232 /* BlueToochAnotherTests.m */; };
+		2D0169DF1F47D7C10022B232 /* BlueToochAnotherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0169DE1F47D7C10022B232 /* BlueToochAnotherUITests.m */; };
+		2D0169EE1F47D7D90022B232 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0169ED1F47D7D90022B232 /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D0169D01F47D7C10022B232 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D0169AE1F47D7C10022B232 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D0169B51F47D7C10022B232;
+			remoteInfo = BlueToochAnother;
+		};
+		2D0169DB1F47D7C10022B232 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D0169AE1F47D7C10022B232 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D0169B51F47D7C10022B232;
+			remoteInfo = BlueToochAnother;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D0169B61F47D7C10022B232 /* BlueToochAnother.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueToochAnother.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0169BA1F47D7C10022B232 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D0169BC1F47D7C10022B232 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D0169BD1F47D7C10022B232 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D0169BF1F47D7C10022B232 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D0169C01F47D7C10022B232 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D0169C31F47D7C10022B232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D0169C51F47D7C10022B232 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D0169C81F47D7C10022B232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D0169CA1F47D7C10022B232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D0169CF1F47D7C10022B232 /* BlueToochAnotherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueToochAnotherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0169D31F47D7C10022B232 /* BlueToochAnotherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueToochAnotherTests.m; sourceTree = "<group>"; };
+		2D0169D51F47D7C10022B232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D0169DA1F47D7C10022B232 /* BlueToochAnotherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueToochAnotherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0169DE1F47D7C10022B232 /* BlueToochAnotherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueToochAnotherUITests.m; sourceTree = "<group>"; };
+		2D0169E01F47D7C10022B232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D0169ED1F47D7D90022B232 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D0169B31F47D7C10022B232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0169EE1F47D7D90022B232 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0169CC1F47D7C10022B232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0169D71F47D7C10022B232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D0169AD1F47D7C10022B232 = {
+			isa = PBXGroup;
+			children = (
+				2D0169B81F47D7C10022B232 /* BlueToochAnother */,
+				2D0169D21F47D7C10022B232 /* BlueToochAnotherTests */,
+				2D0169DD1F47D7C10022B232 /* BlueToochAnotherUITests */,
+				2D0169B71F47D7C10022B232 /* Products */,
+				2D0169EC1F47D7D90022B232 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2D0169B71F47D7C10022B232 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D0169B61F47D7C10022B232 /* BlueToochAnother.app */,
+				2D0169CF1F47D7C10022B232 /* BlueToochAnotherTests.xctest */,
+				2D0169DA1F47D7C10022B232 /* BlueToochAnotherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D0169B81F47D7C10022B232 /* BlueToochAnother */ = {
+			isa = PBXGroup;
+			children = (
+				2D0169BC1F47D7C10022B232 /* AppDelegate.h */,
+				2D0169BD1F47D7C10022B232 /* AppDelegate.m */,
+				2D0169BF1F47D7C10022B232 /* ViewController.h */,
+				2D0169C01F47D7C10022B232 /* ViewController.m */,
+				2D0169C21F47D7C10022B232 /* Main.storyboard */,
+				2D0169C51F47D7C10022B232 /* Assets.xcassets */,
+				2D0169C71F47D7C10022B232 /* LaunchScreen.storyboard */,
+				2D0169CA1F47D7C10022B232 /* Info.plist */,
+				2D0169B91F47D7C10022B232 /* Supporting Files */,
+			);
+			path = BlueToochAnother;
+			sourceTree = "<group>";
+		};
+		2D0169B91F47D7C10022B232 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D0169BA1F47D7C10022B232 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D0169D21F47D7C10022B232 /* BlueToochAnotherTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D0169D31F47D7C10022B232 /* BlueToochAnotherTests.m */,
+				2D0169D51F47D7C10022B232 /* Info.plist */,
+			);
+			path = BlueToochAnotherTests;
+			sourceTree = "<group>";
+		};
+		2D0169DD1F47D7C10022B232 /* BlueToochAnotherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D0169DE1F47D7C10022B232 /* BlueToochAnotherUITests.m */,
+				2D0169E01F47D7C10022B232 /* Info.plist */,
+			);
+			path = BlueToochAnotherUITests;
+			sourceTree = "<group>";
+		};
+		2D0169EC1F47D7D90022B232 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D0169ED1F47D7D90022B232 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D0169B51F47D7C10022B232 /* BlueToochAnother */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0169E31F47D7C10022B232 /* Build configuration list for PBXNativeTarget "BlueToochAnother" */;
+			buildPhases = (
+				2D0169B21F47D7C10022B232 /* Sources */,
+				2D0169B31F47D7C10022B232 /* Frameworks */,
+				2D0169B41F47D7C10022B232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueToochAnother;
+			productName = BlueToochAnother;
+			productReference = 2D0169B61F47D7C10022B232 /* BlueToochAnother.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D0169CE1F47D7C10022B232 /* BlueToochAnotherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0169E61F47D7C10022B232 /* Build configuration list for PBXNativeTarget "BlueToochAnotherTests" */;
+			buildPhases = (
+				2D0169CB1F47D7C10022B232 /* Sources */,
+				2D0169CC1F47D7C10022B232 /* Frameworks */,
+				2D0169CD1F47D7C10022B232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D0169D11F47D7C10022B232 /* PBXTargetDependency */,
+			);
+			name = BlueToochAnotherTests;
+			productName = BlueToochAnotherTests;
+			productReference = 2D0169CF1F47D7C10022B232 /* BlueToochAnotherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D0169D91F47D7C10022B232 /* BlueToochAnotherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0169E91F47D7C10022B232 /* Build configuration list for PBXNativeTarget "BlueToochAnotherUITests" */;
+			buildPhases = (
+				2D0169D61F47D7C10022B232 /* Sources */,
+				2D0169D71F47D7C10022B232 /* Frameworks */,
+				2D0169D81F47D7C10022B232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D0169DC1F47D7C10022B232 /* PBXTargetDependency */,
+			);
+			name = BlueToochAnotherUITests;
+			productName = BlueToochAnotherUITests;
+			productReference = 2D0169DA1F47D7C10022B232 /* BlueToochAnotherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D0169AE1F47D7C10022B232 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "牛新怀";
+				TargetAttributes = {
+					2D0169B51F47D7C10022B232 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B2WB8E557H;
+						ProvisioningStyle = Automatic;
+					};
+					2D0169CE1F47D7C10022B232 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B2WB8E557H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D0169B51F47D7C10022B232;
+					};
+					2D0169D91F47D7C10022B232 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B2WB8E557H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D0169B51F47D7C10022B232;
+					};
+				};
+			};
+			buildConfigurationList = 2D0169B11F47D7C10022B232 /* Build configuration list for PBXProject "BlueToochAnother" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D0169AD1F47D7C10022B232;
+			productRefGroup = 2D0169B71F47D7C10022B232 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D0169B51F47D7C10022B232 /* BlueToochAnother */,
+				2D0169CE1F47D7C10022B232 /* BlueToochAnotherTests */,
+				2D0169D91F47D7C10022B232 /* BlueToochAnotherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D0169B41F47D7C10022B232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0169C91F47D7C10022B232 /* LaunchScreen.storyboard in Resources */,
+				2D0169C61F47D7C10022B232 /* Assets.xcassets in Resources */,
+				2D0169C41F47D7C10022B232 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0169CD1F47D7C10022B232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0169D81F47D7C10022B232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D0169B21F47D7C10022B232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0169C11F47D7C10022B232 /* ViewController.m in Sources */,
+				2D0169BE1F47D7C10022B232 /* AppDelegate.m in Sources */,
+				2D0169BB1F47D7C10022B232 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0169CB1F47D7C10022B232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0169D41F47D7C10022B232 /* BlueToochAnotherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0169D61F47D7C10022B232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0169DF1F47D7C10022B232 /* BlueToochAnotherUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D0169D11F47D7C10022B232 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D0169B51F47D7C10022B232 /* BlueToochAnother */;
+			targetProxy = 2D0169D01F47D7C10022B232 /* PBXContainerItemProxy */;
+		};
+		2D0169DC1F47D7C10022B232 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D0169B51F47D7C10022B232 /* BlueToochAnother */;
+			targetProxy = 2D0169DB1F47D7C10022B232 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D0169C21F47D7C10022B232 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D0169C31F47D7C10022B232 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D0169C71F47D7C10022B232 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D0169C81F47D7C10022B232 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D0169E11F47D7C10022B232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D0169E21F47D7C10022B232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D0169E41F47D7C10022B232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B2WB8E557H;
+				INFOPLIST_FILE = BlueToochAnother/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niuxinhuai.text.BlueToochAnother;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2D0169E51F47D7C10022B232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B2WB8E557H;
+				INFOPLIST_FILE = BlueToochAnother/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niuxinhuai.text.BlueToochAnother;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2D0169E71F47D7C10022B232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B2WB8E557H;
+				INFOPLIST_FILE = BlueToochAnotherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niuxinhuai.text.BlueToochAnotherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueToochAnother.app/BlueToochAnother";
+			};
+			name = Debug;
+		};
+		2D0169E81F47D7C10022B232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B2WB8E557H;
+				INFOPLIST_FILE = BlueToochAnotherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niuxinhuai.text.BlueToochAnotherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueToochAnother.app/BlueToochAnother";
+			};
+			name = Release;
+		};
+		2D0169EA1F47D7C10022B232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = B2WB8E557H;
+				INFOPLIST_FILE = BlueToochAnotherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niuxinhuai.text.BlueToochAnotherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlueToochAnother;
+			};
+			name = Debug;
+		};
+		2D0169EB1F47D7C10022B232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = B2WB8E557H;
+				INFOPLIST_FILE = BlueToochAnotherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niuxinhuai.text.BlueToochAnotherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlueToochAnother;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D0169B11F47D7C10022B232 /* Build configuration list for PBXProject "BlueToochAnother" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0169E11F47D7C10022B232 /* Debug */,
+				2D0169E21F47D7C10022B232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D0169E31F47D7C10022B232 /* Build configuration list for PBXNativeTarget "BlueToochAnother" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0169E41F47D7C10022B232 /* Debug */,
+				2D0169E51F47D7C10022B232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D0169E61F47D7C10022B232 /* Build configuration list for PBXNativeTarget "BlueToochAnotherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0169E71F47D7C10022B232 /* Debug */,
+				2D0169E81F47D7C10022B232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D0169E91F47D7C10022B232 /* Build configuration list for PBXNativeTarget "BlueToochAnotherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0169EA1F47D7C10022B232 /* Debug */,
+				2D0169EB1F47D7C10022B232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D0169AE1F47D7C10022B232 /* Project object */;
+}
